@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using EstacionamentoDesafio.Carro;
+
 
 namespace EstacionamentoDesafio
 {
@@ -19,9 +21,10 @@ namespace EstacionamentoDesafio
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            Carro.Carro c= new Carro.Carro();
+            c.Marca = "";
         }
     }
 }

@@ -12,6 +12,8 @@ namespace EstacionamentoDesafio.Carro
         private String marca;
         private String modelo;
         private Int32 vaga;
+        private String horaEntrada;
+        private String horaSaida;
 
         public string Placa { get => placa; set => placa = value; }
         public string Marca { get => marca; set => marca = value; }
